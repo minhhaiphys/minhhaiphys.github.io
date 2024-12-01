@@ -13,7 +13,7 @@ A big part of the beauty and challenge of magnetization dynamics comes from its 
 
 **PyMacrospin** is a Python package to perform macrospin (i.e. standalone magnetization vector) simulation following the Landau-Lifshitz-Gilbert description of magnetization dynamics under an effective field and the Slonczewski spin-transfer-torque effect. The package provides simple interface to describe the sample (demag field, uniaxial and cubic anisotropy), spin-torque contribution, and sweep the external field and current for most frequently used measurement techniques. Beside the implementation using core Python, the package comes with Numba and Cython kernels to speed up the calculation by 100x.
 
-Originally developed as macrospin by [Colin Jermain](https://github.com/cjermain) in his time in grad school. I upgraded the package by adding core Python and Numba kernels.
+Originally developed as [macrospin](https://github.com/ralph-group/macrospin) by [Colin Jermain](https://github.com/cjermain) in his time in grad school. I upgraded the package by adding core Python and Numba kernels.
 
 
 ### [PyWRspice](https://github.com/BBN-Q/pyWRspice) - Circuit simulation
