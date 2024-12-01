@@ -64,7 +64,7 @@ _Echo State Network (ESN)_ is a popular flavor of _Reservoir Computing_ which is
 
 A Python version of [FourmiLab's ENT](http://www.fourmilab.ch/random/): Benchmarking suite for pseudorandom number generator. It performs the following tests on random number sequence (read byte-per-byte from binary files): Entropy, Chi-square, Arithmetic mean versus Median, Monte-Carlo value for Pi, and Serial correlation coefficient.
 
-### [PySTDF](https://github.com/minhhaiphys/pystdf)
+### [PySTDF](https://github.com/minhhaiphys/pystdf) - STDF file reader
 
 _STDF_ is a standard binary file format to store wafer, die and chip testing data in semiconductor industry. **PySTDF** is a Python parser to read STDF files, mostly developed by [Casey Marshall](https://github.com/cmars/pystdf) for Python 2. I ported it to Python 3 and added some extra features such as Excel extraction.
 
